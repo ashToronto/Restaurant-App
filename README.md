@@ -1,8 +1,8 @@
 # Restaurant App
 
-## Project restaurant pick up
+## Web Project for Picking-up food from the Food express web appl 
 
-This is a mid term project do to LightHouse Labs.
+The Food express web application allows users to select a food item and add it to their shopping cart. They then select a method of payment i.e Cash on pick-up or online paymnet.
 
 
 ## Getting Started
@@ -21,11 +21,12 @@ This is a mid term project do to LightHouse Labs.
 
 ## Dependencies
 
-- Node 5.10.x or above
+- Node JS 5.10.x or above
 - NPM 3.8.x or above
 - morgan
 - knex
 - node-sass-middleware
 - twilio
+- Stripe 
 - cookie-session
 - body-parser
