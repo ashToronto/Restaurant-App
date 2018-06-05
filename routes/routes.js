@@ -56,7 +56,7 @@ module.exports = (knex) => {
     res.redirect('/');
   });
 
-  // get info from user what dished he chosed and put on the kart
+  // Add a dish to the shopping kart
   router.post("/kart", (req, res) => {
 
     var userId = req.session.user_id;
@@ -111,7 +111,7 @@ module.exports = (knex) => {
     return;
   });
 
-  // get information from table kart when clicked
+  // Get shopping cart information from table
   router.get("/kart", (req, res) => {
 
     var userId = req.session.user_id;
