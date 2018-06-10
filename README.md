@@ -2,7 +2,11 @@
 
 ## Web Project for Picking-up food from the Food express web appl 
 
-The Food express web application allows users to select a food item and add it to their shopping cart. They then select a method of payment i.e Cash on pick-up or online paymnet.
+Hungry clients of Food Express can visit its website, selecta food item and add it to their shopping cart. They then select a method of payment i.e Cash on pick-up or online payment. They will receive a notification when their order is ready.
+
+The restaurant and client both need to be notified since this app serves as an intermediary.
+
+When an order is placed the restaurant receives the order via SMS. The restaurant can then specify how long it will take to fulfill it. Once they provide this information, the website updates for the client and also notifies them via SMS.
 
 
 ## Getting Started
