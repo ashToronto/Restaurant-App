@@ -8,6 +8,9 @@ The restaurant and client both need to be notified since this app serves as an i
 
 When an order is placed the restaurant receives the order via SMS. The restaurant can then specify how long it will take to fulfill it. Once they provide this information, the website updates for the client and also notifies them via SMS.
 
+## Display
+The Website features a revolving carosel displaying 6 dishes at a time. Additionally each dish is a flip card with the description and price labelled at the back.
+
 
 ## Getting Started
 
