@@ -37,3 +37,6 @@ The Website features a revolving carosel displaying 6 dishes at a time. Addition
 - Stripe 
 - cookie-session
 - body-parser
+
+## Screenshots
+!["Food-Express Pick-up your order"]
