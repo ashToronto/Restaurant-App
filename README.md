@@ -1,14 +1,16 @@
-# Node Skeleton
+# Restaurant App
 
-## Project Setup
+## Web Project for Picking-up food from the Food express web appl 
 
-1. Create your own empty repo on GitHub
-2. Clone this repository (do not fork)
-  - Suggestion: When cloning, specify a different folder name that is relevant to your project
-3. Remove the git remote: `git remote rm origin`
-4. Add a remote for your origin: `git remote add origin <your github repo URL>`
-5. Push to the new origin: `git push -u origin master`
-6. Verify that the skeleton code now shows up in your repo on GitHub
+Hungry clients of Food Express can visit its website, selecta food item and add it to their shopping cart. They then select a method of payment i.e Cash on pick-up or online payment. They will receive a notification when their order is ready.
+
+The restaurant and client both need to be notified since this app serves as an intermediary.
+
+When an order is placed the restaurant receives the order via SMS. The restaurant can then specify how long it will take to fulfill it. Once they provide this information, the website updates for the client and also notifies them via SMS.
+
+## Display
+The Website features a revolving carosel displaying 6 dishes at a time. Additionally each dish is a flip card with the description and price labelled at the back.
+
 
 ## Getting Started
 
@@ -23,7 +25,18 @@
 7. Run the server: `npm run local`
 8. Visit `http://localhost:8080/`
 
+
 ## Dependencies
 
-- Node 5.10.x or above
+- Node JS 5.10.x or above
 - NPM 3.8.x or above
+- morgan
+- knex
+- node-sass-middleware
+- twilio
+- Stripe 
+- cookie-session
+- body-parser
+
+## Screenshots
+!["Food-Express Pick-up your order"]
